@@ -1,6 +1,6 @@
 
 var a,b;
-var c=" ";
+var c="";
 function pattern(pattern)
 {
     for(a=1;a<=5;a++)
@@ -10,7 +10,7 @@ function pattern(pattern)
             c=c+("*");
         }
             console.log(c);
-            chr=" ";
+            chr="";
     }
 }
 pattern();
