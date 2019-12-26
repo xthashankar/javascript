@@ -1,5 +1,5 @@
 
-var a,b,;
+var a,b;
 var c=" ";
 function pattern(pattern)
 {
