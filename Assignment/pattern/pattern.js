@@ -10,7 +10,7 @@ function pattern(pattern)
             c=c+("*");
         }
             console.log(c);
-            chr="";
+            c="";
     }
 }
 pattern();
