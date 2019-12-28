@@ -1,16 +1,16 @@
 
-var a,b,chr;
-
+var a,b;
+var c="";
 function pattern(pattern)
 {
     for(a=1;a<=5;a++)
     {
         for(b=5;b>=a;b--)
         {
-            chr=chr+("*");
+            c=c+("*");
         }
-            console.log(chr);
-            chr=' ';
+            console.log(c);
+            c="";
     }
 }
 pattern();
