@@ -22,11 +22,11 @@ document.body.onkeyup=function()
     }
     else if(e==39)//right function
     {
-        document.getElementById("bob").style.left = (Left)+10+"px";
+        document.getElementById("bob").style.left=(Left)+10+"px";
     } 
     else if(e==38)//up function
      { 
-        document.getElementById("bob").style.top = (Top)-10+"px";
+        document.getElementById("bob").style.top=(Top)-10+"px";
     }
 
 }
